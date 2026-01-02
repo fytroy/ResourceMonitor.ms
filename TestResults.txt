@@ -1,0 +1,48 @@
+﻿================================================================================
+RESOURCE MONITOR TEST RESULTS
+Test Date: 2026-01-02 11:29:04
+================================================================================
+
+BackgroundMonitor.ps1: PASSED - No errors
+
+SYSTEM METRICS COLLECTED:
+--------------------------------------------------------------------------------
+CPU Usage: 17%
+Memory Usage: 83.86% used (16.14% free)
+Memory Details: 2.55 GB free of 15.78 GB total
+
+Disk Space:
+  Drive C: - 37.8% free (179.85 GB of 475.79 GB)
+  Drive G: - 35.91% free (170.86 GB of 475.79 GB)
+
+================================================================================
+TRAYMONITOR.PS1 COMPONENT TESTS
+================================================================================
+
+System.Windows.Forms Assembly: LOADED
+System.Drawing Assembly: LOADED
+
+NotifyIcon Object Creation: SUCCESS
+Timer Object Creation: SUCCESS
+ContextMenu Object Creation: SUCCESS
+
+Invoke-Check Function Logic Test:
+  CPU Check: 32% (Threshold: 90%)
+  RAM Check: 15.25% Free (Threshold: 10%)
+  Disk C: Check: 37.8% Free (179.85 GB, Threshold: 10%)
+
+================================================================================
+ALERT THRESHOLD STATUS
+================================================================================
+
+CPU Status: Normal
+RAM Status: Normal
+Disk Status: Normal
+
+================================================================================
+OVERALL TEST RESULT: ALL TESTS PASSED
+================================================================================
+
+Both scripts are functioning correctly.
+All monitoring functions operational.
+GUI components working as expected.
